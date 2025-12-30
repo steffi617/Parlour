@@ -1,0 +1,269 @@
+ body{
+    background-image: url(D:/STEFFI/yellow.jfif);
+    background-size: cover;
+    margin: 0;}
+    
+
+
+.luxury{
+    font-family: 'Great Vibes', cursive;
+    font-size: 72px;
+    color: black;
+    text-shadow: 
+        2px 2px 5px rgba(0,0,0,0.2),
+        0 0 15px rgba(233,30,99,0.4);
+}
+
+.wel {
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+  header{
+     color:black;
+    display: inline-flexbox;
+    padding: 3px;
+    z-index: 1000;
+    
+ 
+}
+header img{
+    width: 150px;
+    height: 95px;
+    border-radius: 50%;
+   float: left;
+  
+}
+#img-right
+{
+  float: right;
+}
+.rose{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+  h2{
+    color:purple;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px black,
+                0px 2px 0px whitesmoke;
+  }
+}
+.btn1:hover{
+  background-color: rgb(8, 32, 245);
+  color:white;
+  border-radius: 8px;
+  width:60px;
+  height: 30px;
+  font-size: 20px;
+}
+
+
+.make img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.image1{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    }
+.image2{
+    width:180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+    }
+.image3{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+.image4{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+.image5{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+.image6{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+.image7{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+.image8{
+    width:180px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    font-size: 30px;
+    font: bold;
+    }
+ .image1:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+
+}
+    .image2:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+}
+    .image3:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+}   
+ .image4:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+}
+    .image5:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+}
+    .image6:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+}
+    .image7:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+
+}
+    .image8:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+border-radius: 10px;
+
+}
+    .image6.flip-card-front{
+cursor: pointer;
+box-shadow: 10px 10px 10px;
+}
+
+    
+    
+nav img{
+width: 20px;
+height: 15px; 
+padding: 5px;
+float:right;
+} 
+a{
+  width: 50px;
+  height: 30px;
+  border-radius: 70px solid black;
+  background-color: green;
+  color: white;
+}
+a:hover{
+  background-color:black ;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.flip-card {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  left:220px;
+  
+  /* AUTO ROTATION */
+  animation: flipLeft 3s infinite linear;
+}
+
+@keyframes flipLeft {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  border-radius: 80%;
+  border: 3px solid black;
+}
+
+.flip-card-front {
+  background: black;
+}
+
+.flip-card-back {
+  background:black;
+  transform: rotateY(180deg);
+}
