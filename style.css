@@ -1,5 +1,5 @@
  body{
-    background-image: url(D:/STEFFI/yellow.jfif);
+    background-image: url(yellow.jfif);
     background-size: cover;
     margin: 0;}
     
@@ -267,3 +267,4 @@ nav{
   background:black;
   transform: rotateY(180deg);
 }
+
